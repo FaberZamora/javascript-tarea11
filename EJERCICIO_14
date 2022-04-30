@@ -1,0 +1,7 @@
+let texto=prompt("Ingrese un texto:");
+console.log("texto= "+ texto);
+if(texto.length%2==0){
+    console.log("true");
+}else{
+    console.log("false");
+}

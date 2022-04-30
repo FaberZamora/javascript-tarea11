@@ -1,0 +1,16 @@
+let nombre1 = prompt("Ingrese nombre 1:");
+let nombre2 = prompt("Ingrese nombre 2:");
+console.log("nombre 1: "+nombre1);
+console.log("nombre 2: "+nombre2);
+
+function Validar(nombre1, nombre2)
+{
+if(nombre1[0]==nombre2[0] || nombre1[nombre1.length-1]==nombre2[nombre2.length-1]){
+
+return true;
+}
+else{
+    return false;
+}    
+}
+console.log(Validar(nombre1,nombre2));

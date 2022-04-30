@@ -1,0 +1,38 @@
+let vocal= prompt("Ingrese una letra:");
+let novocal="b";
+let palabra="abc";
+
+function validar (letra){
+    if (letra.length>1){
+
+        return "no se puede procesar el dato"
+    }else{
+        let val= "false"
+        switch (letra){
+            case "a":
+            return "es vocal";
+            break;
+
+            case "e":
+            return "es vocal";
+            break;
+
+            case "i":
+            return "es vocal";
+            break;
+
+            case "0":
+            return "es vocal";
+            break;
+
+            case "u":
+            return "es vocal";
+            break;
+
+            default:
+            val= true;
+        }
+    }
+}
+console.log("letra ingresada "+vocal);
+console.log(validar(vocal));

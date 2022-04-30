@@ -1,0 +1,9 @@
+let palabra1=prompt("Ingrese palabra 1:");
+let palabra2=prompt("Ingrese palabra 2:");
+console.log("palabra1= "+ palabra1);
+console.log("palabra2= "+ palabra2);
+if(palabra1.length<palabra2.length){
+ console.log("true");
+}else{
+    console.log("false");
+}    

@@ -1,0 +1,6 @@
+let texto=prompt("Ingrese un texto:");
+let numero=parseInt(prompt("ingrese un numero positivo menor al numero de caracteres ingresados:"));
+console.log("El texto ingresado es= "+texto);
+console.log("El primer caracter es= "+texto.charAt(0));
+console.log("El numero ingresado es= "+numero);
+console.log("El caracter en la posicion es= "+texto.charAt(numero));
